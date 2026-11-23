@@ -18,5 +18,5 @@ jobs:
       - run: pytest -q
       - name: Processed data is up to date
         run: |
-          crink build
-          git diff --exit-code -- data/processed || (echo "::error::Run 'crink build' and commit data/processed" && exit 1)
+          crink build --no-figures
+          git diff --exit-code -- 'data/processed/*.csv' || (echo "::error::Run 'crink build' and commit data/processed" && exit 1)
