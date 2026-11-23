@@ -3,6 +3,7 @@
 **An open, event-coded network of cooperation among China, Russia, Iran and North Korea, 2019–2026.**
 
 [![validate](https://github.com/karaschneider15/crink-network/actions/workflows/ci.yml/badge.svg)](https://github.com/karaschneider15/crink-network/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24485440.svg)](https://doi.org/10.5281/zenodo.24485440)
 Code: MIT · Data: CC BY 4.0 · Version 0.1.0 (seed release, updated to 23 November 2026)
 
 Analysts and officials now routinely describe the four states as an "axis". Others, including the US intelligence community's 2026 threat assessment, caution that treating them as a single bloc overstates how deep their cooperation runs. That disagreement is partly about evidence. This repository makes the evidence explicit. Every tie is a sourced, dated event, coded under a published codebook and graded for how well it is verified. A reproducible Python pipeline turns the events into dyad-year panels and network graphs.
@@ -76,7 +77,9 @@ These patterns come from 40 high-salience events. They are hypotheses for system
 
 ## Cite
 
-See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button. Archive each release on Zenodo to get a DOI.
+> Schneider, K. (2026). *CRINK Network Dataset: Event-coded ties among China, Russia, Iran and North Korea* (v0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24485440
+
+GitHub's "Cite this repository" button gives the same citation in BibTeX and APA.
 
 ## Licence & disclaimer
 
