@@ -1,0 +1,59 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "year": "2024"
+  },
+  "nodes": [
+    {
+      "id": "CHN"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "IRN"
+    },
+    {
+      "id": "PRK"
+    }
+  ],
+  "links": [
+    {
+      "weight": 5.0,
+      "n_events": 2,
+      "source": "CHN",
+      "target": "IRN"
+    },
+    {
+      "weight": 1.0,
+      "n_events": 1,
+      "source": "CHN",
+      "target": "PRK"
+    },
+    {
+      "weight": 8.0,
+      "n_events": 3,
+      "source": "CHN",
+      "target": "RUS"
+    },
+    {
+      "weight": 8.0,
+      "n_events": 3,
+      "source": "RUS",
+      "target": "IRN"
+    },
+    {
+      "weight": 25.25,
+      "n_events": 7,
+      "source": "RUS",
+      "target": "PRK"
+    },
+    {
+      "weight": 2.0,
+      "n_events": 1,
+      "source": "IRN",
+      "target": "PRK"
+    }
+  ]
+}

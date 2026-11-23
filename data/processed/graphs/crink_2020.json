@@ -1,0 +1,22 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "year": "2020"
+  },
+  "nodes": [
+    {
+      "id": "CHN"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "IRN"
+    },
+    {
+      "id": "PRK"
+    }
+  ],
+  "links": []
+}

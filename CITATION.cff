@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "CRINK Network Dataset: Event-coded ties among China, Russia, Iran and North Korea"
+version: 0.1.0
+date-released: 2026-11-23
+authors:
+  - family-names: "Schneider"
+    given-names: "Kara"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/karaschneider15/crink-network"
+license: CC-BY-4.0
+keywords:
+  - China
+  - Russia
+  - Iran
+  - North Korea
+  - alignment
+  - network analysis
+  - event data

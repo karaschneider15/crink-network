@@ -1,0 +1,22 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests
+      - run: crink validate
+      - run: pytest -q
+      - name: Processed data is up to date
+        run: |
+          crink build
+          git diff --exit-code -- data/processed || (echo "::error::Run 'crink build' and commit data/processed" && exit 1)

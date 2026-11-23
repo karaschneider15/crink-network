@@ -1,0 +1,41 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "year": "2019"
+  },
+  "nodes": [
+    {
+      "id": "CHN"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "IRN"
+    },
+    {
+      "id": "PRK"
+    }
+  ],
+  "links": [
+    {
+      "weight": 3.0,
+      "n_events": 1,
+      "source": "CHN",
+      "target": "IRN"
+    },
+    {
+      "weight": 3.0,
+      "n_events": 1,
+      "source": "CHN",
+      "target": "RUS"
+    },
+    {
+      "weight": 3.0,
+      "n_events": 1,
+      "source": "RUS",
+      "target": "IRN"
+    }
+  ]
+}

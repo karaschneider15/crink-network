@@ -1,0 +1,59 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "year": "all"
+  },
+  "nodes": [
+    {
+      "id": "CHN"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "IRN"
+    },
+    {
+      "id": "PRK"
+    }
+  ],
+  "links": [
+    {
+      "weight": 28.25,
+      "n_events": 11,
+      "source": "CHN",
+      "target": "IRN"
+    },
+    {
+      "weight": 10.0,
+      "n_events": 5,
+      "source": "CHN",
+      "target": "PRK"
+    },
+    {
+      "weight": 36.0,
+      "n_events": 14,
+      "source": "CHN",
+      "target": "RUS"
+    },
+    {
+      "weight": 45.0,
+      "n_events": 17,
+      "source": "RUS",
+      "target": "IRN"
+    },
+    {
+      "weight": 42.25,
+      "n_events": 14,
+      "source": "RUS",
+      "target": "PRK"
+    },
+    {
+      "weight": 4.0,
+      "n_events": 2,
+      "source": "IRN",
+      "target": "PRK"
+    }
+  ]
+}
